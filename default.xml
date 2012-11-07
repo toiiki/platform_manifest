@@ -338,7 +338,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
-  <project path="vendor/toiiki" name="vendor_toiiki" remote="gh" revision="jb" />
+  <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="gh" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
 
 
