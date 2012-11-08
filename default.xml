@@ -8,9 +8,11 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
-  <remote  name="rootbox"
-	   fetch="https://github.com/Root-Box/"
-	   revision="jb"/>
+  <remote name="rootbox"
+           fetch="git://github.com/Root-Box/" /> 
+
+  <remote name="toiiki"
+           fetch="git://github.com/toiiki/" /> 
 
   <remote  name="gh"
            fetch="git://github.com/" 
@@ -338,24 +340,24 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
-  <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="aokp" revision="jb" />
+  <project path="vendor/toiiki" name="vendor_toiiki" remote="toiiki" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
 
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb" />
 
-  <project path="platform_manifest" name="toiiki/platform_manifest" revision="jb" />
+  <project path="platform_manifest" name="platform_manifest" remote="toiiki" revision="jb" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
   
-  <project path="device/rockchip/rk2918" name="toiiki/android_device_rockchip_rk2918" remote="aokp" revision="cm10"/>
-  <project path="vendor/rockchip/rk2918" name="toiiki/android_vendor_rockchip_rk2918" remote="aokp" revision="cm10"/>
+  <project path="device/rockchip/rk2918" name="android_device_rockchip_rk2918" remote="toiiki" revision="cm10"/>
+  <project path="vendor/rockchip/rk2918" name="android_vendor_rockchip_rk2918" remote="toiiki" revision="cm10"/>
   
-  <project path="device/samsung/galaxysl" name="toiiki/android_device_samsung_galaxysl" remote="aokp" revision="jellybean"/>
-  <project path="vendor/samsung/galaxysl" name="toiiki/android_vendor_samsung_galaxysl" remote="aokp" revision="jellybean"/>
+  <project path="device/samsung/galaxysl" name="android_device_samsung_galaxysl" remote="toiiki" revision="jellybean"/>
+  <project path="vendor/samsung/galaxysl" name="android_vendor_samsung_galaxysl" remote="toiiki" revision="jellybean"/>
 
 </manifest>
