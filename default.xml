@@ -338,7 +338,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb" />
-  <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="gh" revision="jb" />
+  <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="aokp" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
 
 
@@ -352,10 +352,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
   
-  <project path="device/rockchip/rk2918" name="toiiki/android_device_rockchip_rk2918" remote="gh" revision="cm10"/>
-  <project path="vendor/rockchip/rk2918" name="toiiki/android_vendor_rockchip_rk2918" remote="gh" revision="cm10"/>
+  <project path="device/rockchip/rk2918" name="toiiki/android_device_rockchip_rk2918" remote="aokp" revision="cm10"/>
+  <project path="vendor/rockchip/rk2918" name="toiiki/android_vendor_rockchip_rk2918" remote="aokp" revision="cm10"/>
   
-  <project path="device/samsung/galaxysl" name="toiiki/android_device_samsung_galaxysl" remote="gh" revision="jellybean"/>
-  <project path="vendor/samsung/galaxysl" name="toiiki/android_vendor_samsung_galaxysl" remote="gh" revision="jellybean"/>
+  <project path="device/samsung/galaxysl" name="toiiki/android_device_samsung_galaxysl" remote="aokp" revision="jellybean"/>
+  <project path="vendor/samsung/galaxysl" name="toiiki/android_vendor_samsung_galaxysl" remote="aokp" revision="jellybean"/>
 
 </manifest>
