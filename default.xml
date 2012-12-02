@@ -379,7 +379,7 @@
   <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb" />
 
 
-  <project path="platform_manifest" name="toiiki/platform_manifest" remote="toiiki" revision="jb" />
+  <project path="platform_manifest" name="toiiki/platform_manifest" remote="gh" revision="jb" />
   <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="gh" revision="jb" />
   <project path="device/rockchip/rk2918" name="CM9-Pascal2/android_device_rockchip_rk2918" remote="gh" revision="cm10"/>
   <project path="vendor/rockchip/rk2918" name="CM9-Pascal2/android_vendor_rockchip_rk2918" remote="gh" revision="cm10"/>
