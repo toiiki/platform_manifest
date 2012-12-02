@@ -379,12 +379,12 @@
   <project path="packages/wallpapers/SwagPapers" name="RootBox_wallpapers" remote="rootbox" revision="jb" />
 
 
-  <project path="platform_manifest" name="platform_manifest" remote="toiiki" revision="jb" />
-  <project path="vendor/toiiki" name="vendor_toiiki" remote="toiiki" revision="jb" />
-  <project path="device/rockchip/rk2918" name="android_device_rockchip_rk2918" remote="toiiki" revision="cm10"/>
-  <project path="vendor/rockchip/rk2918" name="android_vendor_rockchip_rk2918" remote="toiiki" revision="cm10"/>
+  <project path="platform_manifest" name="toiiki/platform_manifest" remote="toiiki" revision="jb" />
+  <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="gh" revision="jb" />
+  <project path="device/rockchip/rk2918" name="CM9-Pascal2/android_device_rockchip_rk2918" remote="gh" revision="cm10"/>
+  <project path="vendor/rockchip/rk2918" name="CM9-Pascal2/android_vendor_rockchip_rk2918" remote="gh" revision="cm10"/>
   
-  <project path="device/samsung/galaxysl" name="android_device_samsung_galaxysl" remote="toiiki" revision="jellybean"/>
-  <project path="vendor/samsung/galaxysl" name="android_vendor_samsung_galaxysl" remote="toiiki" revision="jellybean"/>
+  <project path="device/samsung/galaxysl" name="toiiki/android_device_samsung_galaxysl" remote="gh" revision="jellybean"/>
+  <project path="vendor/samsung/galaxysl" name="toiiki/android_vendor_samsung_galaxysl" remote="gh" revision="jellybean"/>
 
 </manifest>
