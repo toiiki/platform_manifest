@@ -382,6 +382,7 @@
   <project path="vendor/toiiki" name="toiiki/vendor_toiiki" remote="gh" revision="jb" />
   <project path="device/rockchip/rk2918" name="CM9-Pascal2/android_device_rockchip_rk2918" remote="gh" revision="cm10"/>
   <project path="vendor/rockchip/rk2918" name="CM9-Pascal2/android_vendor_rockchip_rk2918" remote="gh" revision="cm10"/>
+  <project path="kernel/rockchip/pascal2" name="toiiki/android_kernel_rockchip_pascal2" remote="gh" revision="3.0.8" />
   
   <project path="device/samsung/galaxysl" name="toiiki/android_device_samsung_galaxysl" remote="gh" revision="jellybean"/>
   <project path="vendor/samsung/galaxysl" name="toiiki/android_vendor_samsung_galaxysl" remote="gh" revision="jellybean"/>
